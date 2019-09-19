@@ -1,0 +1,378 @@
+.body{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+.content{ 
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.text-surat{
+    font-family: monospace; 
+    text-align: center;
+    font-weight: 100;
+    font-size: 5vh;
+    margin: 20px 0 40px 0;
+}
+.media{
+    background: white;
+    box-shadow: 0 0 2px 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 95px;
+    margin: 0 0 20px 0;
+    border-radius: 10px; 
+}
+.number{
+    font-size: 8vh;
+    float: left;
+    margin: 15px 0 0 10px;
+}
+.nama{
+    font-size: 20px;
+    margin: 0 0 0 80px;
+    font-weight: 600;
+}
+.arti{
+    font-size: 20px;
+    margin: 0 0 0 80px;
+    font-weight: 100;
+}
+.nama1{
+    font-size: 20px;
+    margin: 0 0 0 110px;
+    font-weight: 600;
+}
+.arti1{
+    font-size: 20px;
+    margin: 0 0 0 110px;
+    font-weight: 100;
+}
+.arab{
+    font-family: adobe Arabic;
+    font-size: 6vh;
+    text-align: right;
+    margin: -60px 15px 0 0;
+}
+.play-button{
+    size: 10px 10px;
+}
+audio{
+    height: 36px;
+    width: 78%;
+    margin: 0 0 0 20px;
+    border-style: outset;
+}
+.button0{
+    position: relative;
+    left: 44.5%;
+    width: 250px;
+    margin: 1px 1px 1px 1px;
+    display: none;
+}
+.button{
+    position: relative;
+    left: 40%;
+    width: 250px;
+    margin: 1px 1px 1px 1px;
+    display: none;
+}
+.prev-button{
+    height: 55px;
+    width: 70px;
+    background: transparent;
+    box-shadow: 0 0 2px 0;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+}
+.home-button{
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    box-shadow: 0 0 2px 0;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+}
+.next-button{
+    height: 55px;
+    width: 70px;
+    background: transparent;
+    box-shadow: 0 0 2px 0;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+}
+.footer{
+    background: white;
+    box-shadow: 0 0 2px 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+}
+.text-footer{
+    font-size: 5vh;
+    margin: 0 3.1% 0 3.1%;
+    font-family: fantasy;
+    position: relative;
+    color: blue;
+}
+.menu_btn{
+    background: white;
+    text-align: center;
+    box-shadow: 0 0 2px 0;
+    width: 10%;
+    position: relative;
+    left: 43%;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+}
+@media (min-width: 992px) and (max-width: 1289px) {
+    audio{
+        width: 73%;
+    }
+    .text-footer{
+        margin: 0 0 0 5%;
+    }
+    .menu_btn{
+        position: relative;
+        left: 44%;
+        font-size: 3vh;
+        height: 30%;
+    }
+    .arab {
+        font-family: adobe Arabic;
+        font-size: 6vh;
+        text-align: right;
+        margin: -70px 15px 0 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-surat{
+        font-size: 4vh;
+    }
+    .number {
+        font-size: 5vh;
+        float: left;
+        margin: 10px 0 0 5px;
+    }
+    .nama {
+        font-size: 17px;
+        margin: 0 0 0 77px;
+        font-weight: 600;
+    }
+    .arti {
+        font-size: 14px;
+        margin: 0 0 0 77px;
+        font-weight: 100;
+    }
+    .nama1 {
+        font-size: 17px;
+        margin: 0 0 0 77px;
+        font-weight: 600;
+    }
+    audio {
+        height: 21px;
+        width: 75%;
+        margin: 0 0 0 20px;
+        border-style: outset;
+    }
+    .arti1 {
+        font-size: 14px;
+        margin: 0 0 0 77px;
+        font-weight: 100;
+    }
+    .arab {
+        font-family: adobe Arabic;
+        font-size: 4vh;
+        text-align: right;
+        margin: -60px 15px 0 0;
+    }
+    .media{
+        height: 70px;
+    }
+    .text-footer{
+        font-size: 4vh;
+        margin: 0 3.2% 0 2.1%;
+    }
+    .menu_btn{
+        font-size: 2vh;
+        height: 1%;
+    }
+}
+@media (min-width: 641px) and (max-width: 767px) {
+    .text-surat{
+        font-size: 3.5vh;
+    }
+    .number {
+        font-size: 4vh;
+        float: left;
+        margin: 15px 0 0 5px;
+    }
+    .nama {
+        font-size: 14px;
+        margin: 0 0 0 55px;
+        font-weight: 600;
+    }
+    .arti {
+        font-size: 14px;
+        margin: 0 0 0 55px;
+        font-weight: 100;
+    }
+    .nama1 {
+        font-size: 14px;
+        margin: 0 0 0 55px;
+        font-weight: 600;
+    }
+    audio {
+        height: 21px;
+        width: 74%;
+        margin: 0 0 0 7px;
+        border-style: outset;
+    }
+    .arti1 {
+        font-size: 14px;
+        margin: 0 0 0 55px;
+        font-weight: 100;
+    }
+    .arab {
+        font-family: adobe Arabic;
+        font-size: 3.5vh;
+        text-align: right;
+        margin: -45px 15px 0 0;
+    }
+    .media{
+        height: 65px;
+    }
+    .text-footer{
+        font-size: 3vh;
+        margin: 0 3.2% 0 2.1%;
+    }
+    .menu_btn{
+        font-size: 2vh;
+        height: 1%;
+    }
+    .footer{
+        height: 30px;
+    }
+}
+@media (min-width: 425px) and (max-width: 640px) {
+    .text-surat{
+        font-size: 3vh;
+    }
+    .number {
+        font-size: 3vh;
+        float: left;
+        margin: 15px 0 0 5px;
+    }
+    .nama {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 600;
+    }
+    .arti {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 100;
+    }
+    .nama1 {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 600;
+    }
+    audio {
+        height: 16px;
+        width: 74%;
+        margin: 0 0 0 7px;
+        border-style: outset;
+    }
+    .arti1 {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 100;
+    }
+    .arab {
+        font-family: adobe Arabic;
+        font-size: 3vh;
+        text-align: right;
+        margin: -35px 10px 0 0;
+    }
+    .media{
+        height: 52px;
+        border-radius: 5px;
+    }
+    .text-footer{
+        font-size: 2vh;
+        margin: 0 3.2% 0 2.1%;
+    }
+    .menu_btn{
+        font-size: 2vh;
+        height: 1%;
+    }
+    .footer{
+        height: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+    .text-surat{
+        font-size: 3vh;
+    }
+    .number {
+        font-size: 3vh;
+        float: left;
+        margin: 15px 0 0 5px;
+    }
+    .nama1 {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 600;
+    }
+    audio {
+        height: 16px;
+        width: 74%;
+        margin: 0 0 0 7px;
+        border-style: outset;
+    }
+    .arti1 {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 100;
+    }
+    .arab {
+        font-family: adobe Arabic;
+        font-size: 3vh;
+        text-align: right;
+        margin: -35px 10px 0 0;
+    }
+    .media{
+        height: 52px;
+        border-radius: 5px;
+    }
+    .text-footer{
+        font-size: 2vh;
+        margin: 0 3.2% 0 2.1%;
+    }
+    .menu_btn{
+        font-size: 2vh;
+        height: 1%;
+    }
+    .footer{
+        height: 20px;
+    }
+    .nama {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 600;
+    }
+    .arti {
+        font-size: 11px;
+        margin: 0 0 0 40px;
+        font-weight: 100;
+    }
+}

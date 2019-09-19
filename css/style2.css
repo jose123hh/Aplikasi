@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header{
+    background-image: url("images/menu.jpg");
+    height: 100vh;
+    width: 1350px;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 80px;
+}
+h2{
+    float: right;
+    margin-right: 500px;
+    font-size: 10px
+    font-family: adobe Arabic;
+}
+ul{
+    float: right;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 300px;
+}
+    
+}
+ul il{
+    display:inline-block;
+}
+ul a il{
+       text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    border: 3px solid ;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 0px;
+}
+h{
+    float: left;
+    font-size: 30px;
+    margin-left: 790px;
+    margin-top: 40px;    
+}h a{
+           text-decoration: none;
+    color: #fff;
+    padding: 15px 100px;
+    border: 3px solid ;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 0px;
+}
+p{
+    
+    float:left;
+    font-size:50px;
+    margin-left:50px;
+    margin-top:80px
+}
+p a{
+    color:black;
+    background-color:white;
+    border:3px solid;
+    margin-right:0px;
+    border-radius:25px;
+    padding:10px 15px;
+}
+ul li{
+    float
+}
+ul li a{
+    text-decoration: none;
+ color: #fff;
+ padding: 15px 40px;
+ border: 3px solid ;
+ background-color: black;
+ border-radius: 25px;
+ margin-right: 0px;
+}

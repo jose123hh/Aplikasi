@@ -1,0 +1,41 @@
+body{
+    background:url("images/Background-Wallpaper-2.jpg");
+    font-family: sans-serif;
+    color: white; 
+    display: block; 
+}
+.tulisan1{
+    text-shadow: 20px 10px 5px #232323;
+}
+.tulisan2{
+    text-shadow: 20px 10px 5px #232323;
+}
+h1{
+    text-align:center;
+    margin-top:10px;
+}
+.animated infinite {
+    text-align: center;
+} 
+a{
+    text-decoration: aqua;
+    border: 3px solid;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.satu{
+    text-align: right;
+    font-size: 17px;
+    margin: 20px;
+}
+.dua{
+    text-shadow: 23 23 23 black;
+    color: chartreuse;
+    text-align: center;
+    font-size: 19px;
+}
+.tiga{
+    font-size: 22px;
+}
